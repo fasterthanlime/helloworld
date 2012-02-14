@@ -1,6 +1,8 @@
 Helloworld::Application.routes.draw do
 
-    root :to => 'welcome#index'
+  root :to => 'welcome#index'
+
+  get 'liste' => 'welcome#liste_cont'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
